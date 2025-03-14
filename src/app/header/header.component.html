@@ -1,0 +1,14 @@
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<nav>
+  <ul>
+    <div class="header">
+      <li><a [class]="!this.route.url.replace(this.route.url[0],'') ? 'ativo' : ''" routerLink="/" (click)="a()">Home</a></li>
+      <li><a [class]="this.route.url.replace(this.route.url[0],'').startsWith('courses') ? 'ativo' : ''" routerLink="/courses">Courses</a></li>
+      <li><a [class]="this.route.url.replace(this.route.url[0],'').startsWith('experience') ? 'ativo' : ''" routerLink="/experience">Experience</a></li>
+      <li><a [class]="this.route.url.replace(this.route.url[0],'').startsWith('projects') ? 'ativo' : ''" routerLink="/projects">Projects</a></li>
+    </div>
+
+  </ul>
+</nav>

@@ -1,0 +1,20 @@
+.title-name{
+    margin-top: 170px;
+    margin-left: 250px;
+}
+
+ .im{
+    color: #ffff;
+    font-weight:bold;
+    font-size: 50px;
+}
+
+.name{
+    color: #FF00AA;
+    font-weight:bold;
+    font-size: 50px;
+}
+
+.title-name p{
+    color: #ffff;
+}
