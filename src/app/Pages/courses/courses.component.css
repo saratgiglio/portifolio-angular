@@ -1,0 +1,57 @@
+*{
+    color: #ffff;
+}
+.course-complete{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.info h2{
+    color: #FF00AA;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+h4{
+    font-weight: 700;
+}
+p{
+    font-size: 12px;
+}
+.info{
+    border: solid 1px white;
+    border-radius: 12px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+}
+.inst-ano{
+    margin-left: 22px;
+}
+.instituicao{
+    padding: 0%;
+}
+.linha-colorida-courses{
+    margin: 30px;
+
+}
+.details{
+    border: solid 1px white;
+    border-radius: 12px;
+    width: 40%;
+
+}
+.area-tools-used{
+    display: flex;
+    justify-content: center;
+    
+}
+.details p{
+    font-size: 16px;
+}
+.area h2{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,19 @@
+*{
+    color: #fff;
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.conteudo h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF00AA;
+    height: 6px;
+}
+.linha-colorida-aboutme{
+    background-color: #FF00AA;
+    width: 450px;
+    height: 2px;
+    border: 0;
+}

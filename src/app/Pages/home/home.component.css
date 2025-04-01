@@ -1,0 +1,57 @@
+.container_home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text-image{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.box-1{
+    width: 50%;
+}
+.box-1 p{
+    color: #ffff;
+    line-height: 2.2;
+    font-size: 24px;
+}
+
+ .im{
+    color: #ffff;
+    font-weight:bold;
+    font-size: 60px;
+}
+
+.name{
+    color: #FF00AA;
+    font-weight:bold;
+    font-size: 60px;
+}
+.box-2{
+    display: flex;
+    justify-content: center;
+}
+.box-2 img{
+    width: 100%;
+
+}
+.aboutme-software{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.home-aboutme{
+    display: flex;
+
+}
+.home-software{
+    display: flex;
+}
+.part2{
+    display: flex;
+}
