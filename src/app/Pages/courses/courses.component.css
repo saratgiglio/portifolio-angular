@@ -40,13 +40,13 @@ p{
 .details{
     border: solid 1px white;
     border-radius: 12px;
-    width: 40%;
+    width: 45%;
+    max-height: 450px;
 
 }
 .area-tools-used{
     display: flex;
     justify-content: center;
-    
 }
 .details p{
     font-size: 16px;
